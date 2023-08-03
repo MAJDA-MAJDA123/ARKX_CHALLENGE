@@ -1,0 +1,154 @@
+
+.grid-container {
+ display: grid;
+ grid-template-columns:repeat(6,1fr) ;
+ grid-gap: 20px;
+ width: 1200px;
+ margin-left: 27px;
+
+}
+
+  
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  border: 1px solid #777 ;}
+  
+.item-1{
+    grid-row:span 1 ;
+    grid-column: span 6;
+}
+.item-2{
+    grid-row:span 1 ;
+    grid-column:span 2;
+}
+.item-3{
+    grid-row:span 1;
+    grid-column: span 4;
+}
+.item-4{
+    grid-row:span 1;
+    grid-column:span 4;
+}
+.item-5{
+    grid-row: span 2;
+    grid-column:span 2;
+    
+}
+.item-6{
+    grid-row: span 1;
+    grid-column:span 2;
+}
+.item-7{
+    grid-row:span 1;
+    grid-column:span 2;
+}
+.item-8{
+    grid-row: span 1;
+    grid-column: span 3;
+}
+.item-9{
+    grid-row:span 1;
+    grid-column:span 3;
+    
+}
+.navig{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.boutton1-style{
+    position: relative;
+    top: 370px;
+    left: -483px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 14px;
+   }
+   .boutton2-style{
+    position: relative;
+    top: -26px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 14px;
+   }
+   .boutton3-style{
+    position: relative;
+    top: 323px;
+    left: -312px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+   }
+   .boutton4-style{
+    position: relative;
+    top: 249px;
+    right: -289px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+   }
+   .boutton5-style{
+    position: relative;
+    top: 560px;
+    left: -123px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+   }
+   .boutton6-style{
+    position: relative;
+    top: 240px;
+    left: -123px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+   }
+   .boutton7-style{
+    position: relative;
+    top: -25px;
+    left: 106px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+   }
+   .boutton8-style{
+    position: relative;
+    top: 190px;
+    left: -225px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+   }
+   .boutton9-style{
+    position: relative;
+    top: 190px;
+    left: -225px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+   }
+
+
