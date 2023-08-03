@@ -1,0 +1,56 @@
+img{ height: 35px;
+    
+}
+.flex-container{
+    display: flex;
+    justify-content:space-between ;
+    
+}
+button{ width: 30px;
+
+}
+.class-video{
+    margin: 50px;
+}
+.style-video{
+    display: flex; 
+   
+
+
+}
+.video-size{
+    width: 168px;
+    height: 94px;
+    margin-top: 14px;
+}
+i{
+    
+    margin: 10px;
+}
+.col-lg button{
+    border-top-left-radius: -15px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    position: absolute;
+    height: 30px;width: 43px;
+}
+.search-button{
+    width: 306px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 12px;
+}
+.list-item{ 
+    display: flex;
+
+}
+.small-video{
+    position: relative;
+    top: 11px;
+
+}
+.fa-magnifying-glass{
+    position: relative;
+    top: -5px;
+    left: -3px;
+}
