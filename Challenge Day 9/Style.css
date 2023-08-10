@@ -1,0 +1,262 @@
+.h6, h6 {
+    margin-top: 18px !important;
+    font-size: 18px !important;
+    color: #c33398 !important;
+}
+.img-size
+{
+    width: 300px;
+}
+.font_style
+{
+    font-size: 13px;
+    margin-top: -18px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu{
+    height: 100%;
+    width:100% ;
+    background-image: url(pic1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+*{
+    padding:0;
+    margin: 0;
+    font-family:'Josefin Sans',sans-serif ;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    
+    justify-content:space-between ;
+    padding-top:20px ;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #c33398;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:white ;
+    text-decoration: none;
+    font-weight : bold;
+    text-transform :capitalize;
+}
+nav ul li a:hover{
+    color:#f9004d ;
+    transition: .4s;
+}
+.content-one{
+    position: absolute;
+    top:50%;
+    left: 32% !important ;
+    transform: translate(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size:75px ;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px; 
+}
+
+#projects{
+     margin: 6px;
+     
+}
+.Project-1{
+    display: flex;
+    padding: 20px 0px;
+}
+.Project-1 img{
+    margin-right: 10px; 
+}
+.Project-2{
+    display: flex; 
+    padding: 20px 0px;
+}
+.Project-3{
+    display: flex; 
+    padding: 20px 0px;
+}
+.Project-4{
+    display: flex; 
+    padding: 20px 0px;
+}
+.grid{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,minmax(200px,1fr ));
+    grid-template-rows: 350px;
+    grid-auto-flow: row;
+    grid-auto-rows: minmax(50px,auto);
+  
+    width: 1000px;
+    text-align: center !important;
+    margin-left: 125px;
+    margin-top: 32px;  
+}
+a {
+    color: #c33398 !important;
+    text-decoration: unset !important;
+}
+.img_style1
+{
+    width: 90px;
+    position: relative;
+    left: 107px;
+    margin: 15px;
+}
+
+
+.card{
+    text-align: center;
+    --bs-card-border-color: unset !important;
+}
+
+
+.H-one
+{
+    color: #c33398 !important;text-shadow: 2px 3px 6px #ffffff;
+}
+.H-two
+{
+    font-size: 30px;color: #ffffff !important;
+}
+.one
+{
+    text-align: justify;
+    font-size: 17px;
+    margin: 30px;
+    margin-right: 300px;
+    margin-left: 295px;
+
+}
+.div_style{
+    display: flex; 
+    text-align: center;
+}
+.contact{
+    width: 600px; 
+    margin-left: 350px;
+}
+
+.div-margin{
+    margin-right: 7px;
+}
+/*//////////////////////////////////////////////////*/
+
+
+   
+   
+   
+
+@media only screen and (min-width:1200px ) {
+
+
+    }
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) 
+{
+
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (max-width: 481px) 
+{
+    nav {
+        display: unset;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-right: 10%;
+        text-align: center;
+    }
+    .menu {
+        height: 50%;
+        width: 100%;
+        background-image: url(pic1.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .content-one {
+        position: absolute;
+        top: 50%;
+        left: 40% !important;
+        transform: translate(-50%);
+    }
+    .H-one{
+        FONT-SIZE: 27PX;
+    }
+    .H-two {
+        font-size: 20px;
+        color: #ffffff !important;
+    }
+    .one
+{
+    text-align: center;
+     font-size: 13px;
+     margin: 30px;
+     margin-right: unset;
+     margin-left: unset;
+}
+.div_style{
+    display: unset; 
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-gap: unset; 
+    grid-template-columns: unset; 
+    grid-template-rows: 350px;
+    grid-auto-flow: row;
+    grid-auto-rows: minmax(50px,auto);
+    width: unset;
+    text-align: center !important;
+    margin-left: unset; 
+    margin-top: unset;
+}
+.contact{
+    width: 300px;
+    margin-left: 50px;
+
+}
+.img_style1 {
+    width: 90px;
+    position: relative;
+    left: 150px;
+    margin: 15px;
+}
+.div-margin{
+    margin-right:unset;
+}
+
+}
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1920px) 
+{
+
+}
